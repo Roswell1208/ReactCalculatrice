@@ -1,0 +1,95 @@
+.card {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    position: relative;
+    width: 20em;
+}
+
+.card-header {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.calcul {
+    text-align: left;
+    margin: 0.5em;
+}
+
+.result {
+    text-align: right;
+    margin: 0.5em;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "btnC btnC btnDEL btnDEL"
+        "btn9 btn8 btn7 btnPlus"
+        "btn6 btn5 btn4 btn-"
+        "btn3 btn2 btn1 btnX"
+        "btnDot btn0 btnEg btnDiv";
+    margin: 0.5em;
+}
+
+.btn9 {
+    grid-area: btn9;
+}
+.btn8 {
+    grid-area: btn8;
+}
+.btn7 {
+    grid-area: btn7;
+}
+.btn6 {
+    grid-area: btn6;
+}
+.btn5 {
+    grid-area: btn5;
+}
+.btn4 {
+    grid-area: btn4;
+}
+.btn3 {
+    grid-area: btn3;
+}
+.btn2 {
+    grid-area: btn2;
+}
+.btn1 {
+    grid-area: btn1;
+}
+.btn0 {
+    grid-area: btn0;
+}
+.btnDot {
+    grid-area: btnDot;
+}
+.btnEg {
+    grid-area: btnEg;
+}
+.btnDiv {
+    grid-area: btnDiv;
+}
+.btnX {
+    grid-area: btnX;
+}
+.btn- {
+    grid-area: btn-;
+}
+.btnPlus {
+    grid-area: btnPlus;
+}
+.btnDEL {
+    grid-area: btnDEL;
+}
+.btnC {
+    grid-area: btnC;
+}
